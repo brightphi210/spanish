@@ -35,3 +35,28 @@
 .uil-share-alt{
     font-size: 40px;
 }
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .sectionThree{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 50px 8%;
+    }
+
+    .container{
+        padding: 30px;
+    }
+
+    .container h2{
+        font-size: 15px;
+    }
+
+    .container p{
+        font-size: 12px;
+    }
+
+    .uil-share-alt{
+        font-size:30px;
+    }
+}

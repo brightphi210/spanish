@@ -8,13 +8,12 @@ const SectionOne = () => {
     <div>
       <section className='sectionOne'>
         <div className='sectionOneDiv'>
-            <h3>Best & Amazing <br /> Products </h3>
+            <h3>Quality <br /> Products</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.  
                 Perferendis sequi, <br /> ut atque aut iste nemo velit assumenda 
                 sapiente illum! Soluta, adipisci laborum! Fugiat, <br />
-                aut reprehenderit nisi similique officia incidunt dolorum.
             </p>
-            <button>Contact Us</button>
+            <a href="#sec4"><button>Contact Us</button></a>
         </div>
       </section>
     </div>

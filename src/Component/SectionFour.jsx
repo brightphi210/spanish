@@ -2,7 +2,7 @@ import React from 'react'
 import './sectionFour.css'
 const SectionFour = () => {
   return (
-    <div>
+    <div id='sec4'>
       <form action="">
         <input type="text" placeholder='Enter Name . . .'  required/>
         <input type="email" placeholder='Enter Email . . .' required />

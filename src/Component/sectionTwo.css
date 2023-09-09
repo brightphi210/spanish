@@ -18,7 +18,7 @@
 }
 
 .h2{
-    padding: 100px 10%;
+    padding: 50px 10%;
     padding-bottom: 0;
     font-weight: 400;
 }
@@ -61,6 +61,20 @@
     border-radius: 10px;
 }
 
+
+@media only screen and (min-width:321px) and (max-width:768px){
+    .sectionTwo{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 10px 10%;
+    }
+
+    .image-description {
+        padding-top: 100px;
+    }
+
+}
 
 
 

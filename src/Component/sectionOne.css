@@ -89,3 +89,64 @@
     color: black;
     transition: all ease 0.2s;
 }
+
+/* ================ main ================= */
+@media only screen and (min-width:321px) and (max-width:768px){
+    .sectionOne{
+        padding: 20px 8%;
+        height: 85vh;
+
+    }
+    
+    
+    
+    .sectionOne::before {
+        content: ""; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 85vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* background-color: rgb(42, 158, 42, 0.6); */
+    }
+    
+
+    
+    .sectionOneDiv{
+        isolation: isolate;
+        padding: 200px 5%;
+        text-align: left;
+    }
+    
+    .sectionOneDiv p, h3{
+        isolation: isolate;
+        color: white;
+    }
+    
+    .sectionOneDiv h3{
+        font-size: 50px;
+        font-family: 'Kanit', sans-serif;
+        line-height: 50px;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+    
+    .sectionOneDiv p{
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .sectionOneDiv button{
+        font-size: 13px;
+        margin-top: 30px;
+        text-align: left;
+    }
+    
+    
+    .sectionOneDiv button:hover{
+        background-color: rgb(156, 199, 156);
+        color: black;
+        transition: all ease 0.2s;
+    }
+}

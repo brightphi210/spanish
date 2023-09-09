@@ -10,7 +10,7 @@ import images6 from './images/3.jpg'
 import './sectionTwo.css'
 const SecTwo = () => {
     return (
-        <div>
+        <div id='sec2'>
             <h2 className='h2'>Some Products <i class="uil uil-box"></i></h2>
             <section className='sectionTwo'>
                 <div className='image-container'>
