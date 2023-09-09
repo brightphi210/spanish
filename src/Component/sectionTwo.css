@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sectionTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 10px 10%;
+}
+
+.h2{
+    padding: 100px 10%;
+    padding-bottom: 0;
+    font-weight: 400;
+}
+
+.image-container {
+    position: relative; /* Needed for absolute positioning */
+    display: inline-block;
+    overflow: hidden;
+}
+
+.sectionTwo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+
+
+.image-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 62, 4, 0.8);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+.image-container:hover .image-description {
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+
+
+

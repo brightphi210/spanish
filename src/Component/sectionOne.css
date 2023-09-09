@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Syne:wght@400;500;600;700&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -9,16 +11,19 @@
 
 
 .sectionOne{
-    padding: 100px 5%;
+    padding: 130px 5%;
     gap: 30px;
-    background-image: url(images/5.jpg);
+    background-image: url(images/r1.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     height: 100vh;
     background-position: center;
     position: relative;
+    animation: changeBackground 10s linear infinite;
 }
+
+
 
 .sectionOne::before {
     content: ""; 
@@ -26,10 +31,61 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgb(42, 158, 42, 0.6); */
 }
 
+
+@keyframes changeBackground {
+    0% {
+        background-image: url(images/r2.jpg);
+    }
+    50% {
+        background-image: url(images/r1.jpg);
+    }
+    100% {
+        background-image: url(images/r2.jpg);
+    }
+  }
+
+
 .sectionOneDiv{
-    
+    isolation: isolate;
+    text-align: center;
+    padding: 200px 10%;
+}
+
+.sectionOneDiv p, h3{
+    isolation: isolate;
+    color: white;
+}
+
+.sectionOneDiv h3{
+    font-size: 80px;
+    font-family: 'Kanit', sans-serif;
+    line-height: 80px;
+    padding-bottom: 20px;
+}
+
+.sectionOneDiv p{
+    font-size: 15px;
+}
+
+.sectionOneDiv button{
+    font-size: 15px;
+    background-color: rgb(177, 233, 177);
+    color: black;
+    padding: 15px 50px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.sectionOneDiv button:hover{
+    background-color: rgb(156, 199, 156);
+    color: black;
+    transition: all ease 0.2s;
 }
