@@ -4,6 +4,7 @@ import SectionOne from '../Component/SectionOne'
 import SecTwo from '../Component/SectionTwo'
 import SectionThree from '../Component/SectionThree'
 import SectionFour from '../Component/SectionFour'
+import SectionFive from '../Component/SectionFive'
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
         <SectionThree />
         <SecTwo />
         <SectionFour/>
+        <SectionFive /> 
     </div>
   )
 }

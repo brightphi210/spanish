@@ -4,9 +4,9 @@ const SectionFour = () => {
   return (
     <div>
       <form action="">
-        <input type="text" placeholder='Enter Name . . .' />
-        <input type="email" placeholder='Enter Email . . .' />
-        <textarea name="" id="" cols="30" rows="10" placeholder='Enter Description'></textarea>
+        <input type="text" placeholder='Enter Name . . .'  required/>
+        <input type="email" placeholder='Enter Email . . .' required />
+        <textarea name="" id="" cols="30" rows="10" placeholder='Enter Description' required></textarea>
         <button className='btn'>Submit</button>
       </form>
     </div>

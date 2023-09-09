@@ -10,30 +10,37 @@
 }
 
 
-form{
-    padding: 50px 20%;
-}
-
-form input, textarea, .btn{
-    width: 100%;
-    display: block;
-    padding: 20px 10px;
-    margin: 30px;
-    border-radius: 10px;
-    border: rgb(199, 199, 199) 1px solid;
-}
-form .btn{
-    padding: 20px;
-    background-color: green;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
+.sectionFive{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 100px 10%;
+    background-color: rgb(2, 44, 2);
     color: white;
-    font-size: 15px;
+    gap: 100px;
 }
 
-form .btn:hover{
-    background-color: rgb(72, 159, 72);
-    transition: all 0.2s ease;
+.sectionFive img{
+   width: 200px; 
 }
 
+.myUl li{
+    display: block;
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.myUl li:hover{
+    color: rgb(137, 233, 195);
+}
+
+.icons{
+    font-size: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    color: rgb(137, 233, 195); 
+}
