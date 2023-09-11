@@ -52,8 +52,8 @@
 
 .sectionOneDiv{
     isolation: isolate;
-    text-align: center;
-    padding: 200px 10%;
+    text-align: left;
+    padding: 200px 5%;
 }
 
 .sectionOneDiv p, h3{
@@ -88,6 +88,28 @@
     background-color: rgb(156, 199, 156);
     color: black;
     transition: all ease 0.2s;
+}
+
+
+.testimony{
+    position: absolute;
+    background-color: aliceblue;
+    width: 500px;
+    top: 150px;
+    right: 150px;
+    padding: 40px 50px;
+}
+
+.testDiv{
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.testDiv img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 /* ================ main ================= */
