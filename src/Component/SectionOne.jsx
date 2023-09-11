@@ -45,7 +45,7 @@ const SectionOne = () => {
           <div className='testDiv'>
             <img src={im4} alt="" />
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-              Dolorum, totam. Nihil reiciendis suscipit similique quibusdam 
+              Dolorum, totam. Nihil reiciendis suscipit similiquse quibusdam 
             </p>
           </div>
         </div>
