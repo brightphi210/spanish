@@ -5,54 +5,51 @@ import images3 from './images/6.jpg'
 import images4 from './images/1.jpg'
 import images5 from './images/11.png'
 import images6 from './images/3.jpg'
-// import images5 from './images/11.png'
+import images9 from './images/9.jpg'
+import images10 from './images/10.jpg'
+import images11 from './images/11.jpg'
 
 import './sectionTwo.css'
 const SecTwo = () => {
     return (
         <div id='sec2'>
-            <h2 className='h2'>Some Products <i class="uil uil-box"></i></h2>
+            <h2 className='h2'>Samples <i class="uil uil-box"></i></h2>
             <section className='sectionTwo'>
                 <div className='image-container'>
                     <img src={images6} alt="" />
-                    <div class="image-description">
-                        <p>This is the image description.</p>
-                    </div>
                 </div>
 
                 <div className='image-container'>
                     <img src={images1} alt="" />
-                    <div class="image-description">
-                        <p>This is the image description.</p>
-                    </div>
                 </div>
 
                 <div className='image-container'>
                     <img src={images2} alt="" />
-                    <div class="image-description">
-                        <p>This is the image description.</p>
-                    </div>
                 </div>
 
                 <div className='image-container'>
                     <img src={images3} alt="" />
-                    <div class="image-description">
-                        <p>This is the image description.</p>
-                    </div>
                 </div>
 
                 <div className='image-container'>
                     <img src={images4} alt="" />
-                    <div class="image-description">
-                        <p>This is the image description.</p>
-                    </div>
                 </div>
 
                 <div className='image-container'>
                     <img src={images5} alt="" />
-                    <div class="image-description">
-                        <p>This is the image description.</p>
-                    </div>
+                </div>
+
+                <div className='image-container'>
+                    <img src={images9} alt="" />
+                </div>
+
+                <div className='image-container'>
+                    <img src={images10} alt="" />
+                </div>
+
+
+                <div className='image-container'>
+                    <img src={images11} alt="" />
                 </div>
 
             </section>

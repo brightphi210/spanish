@@ -4,12 +4,10 @@ import './banner.css'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import images1 from './images/2.jpg'
-import images2 from './images/5.jpg'
-import images3 from './images/6.jpg'
-import images4 from './images/1.jpg'
-import images5 from './images/11.png'
-import images6 from './images/3.jpg'
+import images1 from './images/ban1.jpg'
+import images2 from './images/ban2.jpg'
+import images3 from './images/ban3.jpg'
+
 const Banner = () => {
 
     const responsive = {
@@ -47,7 +45,7 @@ const Banner = () => {
             ssr={true}
             infinite={true}
             autoPlay={true}
-            autoPlaySpeed={2000}
+            autoPlaySpeed={5000}
             keyBoardControl={true}
             containerClass="carousel-container"
             removeArrowOnDeviceType={["tablet", "mobile"]}
