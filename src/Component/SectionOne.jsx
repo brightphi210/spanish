@@ -2,8 +2,6 @@
 import React from 'react'
 import './sectionOne.css'
 import im1 from './images/a.jpg'
-import im2 from './images/name (2).jpg'
-import im3 from './images/name (3).jpg'
 
 const SectionOne = () => {
   return (

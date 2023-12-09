@@ -33,9 +33,8 @@ const Nav = () => {
                 <a href="#sec4"><li>Contact</li></a>
                 <i class="uil uil-multiply closebtn" onClick={closeMenu}></i>
                 <div>
-                  <Link ><i class="uil uil-facebook icons1"></i></Link>
-                  <Link><i class="uil uil-twitter icons1"></i></Link>
-                  <Link><i class="uil uil-instagram icons1"></i></Link>
+                <Link to={'https://www.facebook.com/profile.php?id=100070235585093'}><i class="uil uil-facebook icons"></i></Link>
+              <Link to={'https://www.instagram.com/spanish_accessories/'}><i class="uil uil-instagram icons"></i></Link>
               </div>
             </ul>
             <i class="uil uil-apps openbtn" onClick={openMenu}></i>
