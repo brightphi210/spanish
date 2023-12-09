@@ -28,7 +28,7 @@ const Nav = () => {
             <a href="/"><img src={logo} alt="" /></a>
             <ul className={`nav-ul ${isNavOpen ? "open" :"close"} `}>
                 <a href="/"><li>Home</li></a>
-                <a href="#sec3"><li>Services</li></a>
+                <Link to="#sec3"><li>Services</li></Link>
                 <a href="#sec2"><li>Products</li></a>
                 <a href="#sec4"><li>Contact</li></a>
                 <i class="uil uil-multiply closebtn" onClick={closeMenu}></i>
