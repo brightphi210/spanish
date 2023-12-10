@@ -119,6 +119,7 @@
         padding: 10px 0;
         display: block;
         font-size: 13px;
+        display: none;
     }
 
     .navSection ul li::before {
@@ -140,4 +141,33 @@
         left: -100%;
         transition: all 0.5s ease;
     }
+}
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .navSection{
+        padding: 15px 8%;
+    }
+
+    .navSection img{
+        width: 80px;
+    }
+
+    .navSection i{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .navSection i{
+        display: none;
+    }
+
+
+    .navSection{
+        padding: 15px 8%;
+    }
+
 }

@@ -28,13 +28,13 @@ const Nav = () => {
             <a href="/"><img src={logo} alt="" /></a>
             <ul className={`nav-ul ${isNavOpen ? "open" :"close"} `}>
                 <a href="/"><li>Home</li></a>
-                <Link to="#sec3"><li>Services</li></Link>
+                <a href="#sec3"><li>Services</li></a>
                 <a href="#sec2"><li>Products</li></a>
                 <a href="#sec4"><li>Contact</li></a>
                 <i class="uil uil-multiply closebtn" onClick={closeMenu}></i>
-                <div>
+              <div>
                 <Link to={'https://www.facebook.com/profile.php?id=100070235585093'}><i class="uil uil-facebook icons"></i></Link>
-              <Link to={'https://www.instagram.com/spanish_accessories/'}><i class="uil uil-instagram icons"></i></Link>
+                <Link to={'https://www.instagram.com/spanish_accessories/'}><i class="uil uil-instagram icons"></i></Link>
               </div>
             </ul>
             <i class="uil uil-apps openbtn" onClick={openMenu}></i>
