@@ -222,5 +222,60 @@
 
 
 @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .sectionOne{
+        padding: 10px 8% !important;
+        height: 100vh;
+    }
+
+
+    .sectionOneDiv{
+        isolation: isolate;
+        text-align: left;
+        padding: 30px 5%;
+    }
     
+    .testimony{
+        display: flex;
+        margin: auto;
+        justify-content: center;    
+        position: absolute;
+        background-color: aliceblue;
+        width: 90%;
+        height: 250px;
+        overflow: scroll;
+        top: 60%;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .sectionOne{
+        padding: 10px 8% !important;
+        height: 100vh;
+    }
+    .sectionOneDiv{
+        isolation: isolate;
+        text-align: left;
+        padding: 30px 5%;
+    }
+
+    .testimony{
+        display: flex;
+        margin: auto;
+        justify-content: center;    
+        position: absolute;
+        background-color: aliceblue;
+        width: 90%;
+        height: 250px;
+        overflow: scroll;
+        top: 60%;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        border-radius: 10px;
+    }
 }
