@@ -8,7 +8,7 @@ const SectionOne = () => {
     <div>
       <section className='sectionOne'>
         <div className='sectionOneDiv'>
-            <h3>Quality <br /> Products</h3>
+            <h3>About</h3>
             <p>
             In the year 2015 CEO Spanish started with the production handfree in 
             his company in china and along the line he went ahead to produce fast and 
