@@ -25,6 +25,10 @@ const SectionFive = () => {
                 <p>MTN Office by Mosque Road/Elelenwo Portharcourt,  Rivers State, Nigeria.</p>
               </div>
 
+              <div className='oficeDiv'>
+                <h2>+8613078835695</h2>
+                <h2>+2349066862255</h2>
+              </div>
             </div>
 
             <div>
