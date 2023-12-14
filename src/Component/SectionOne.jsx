@@ -29,26 +29,6 @@ const SectionOne = () => {
              regrets now. Having good quality and affordable at the same time
             </p>
           </div>
-
-          <div className='testDiv'>
-          <div className='imDiv'>
-              <img src={im1} alt=""/>
-            </div>
-            <p>
-            At first, I didn't want to buy it because the product was new but I have no
-             regrets now. Having good quality and affordable at the same time
-            </p>
-          </div>
-
-          <div className='testDiv'>
-          <div className='imDiv'>
-              <img src={im1} alt="" width={20}/>
-            </div>
-            <p>
-            At first, I didn't want to buy it because the product was new but I have no
-             regrets now. Having good quality and affordable at the same time
-            </p>
-          </div>
           </div>
         </div>
       </section>
