@@ -8,6 +8,7 @@ import images6 from './images/3.jpg'
 import images9 from './images/9.jpg'
 import images10 from './images/10.jpg'
 import images11 from './images/11.jpg'
+import images12 from './images/12.jpg'
 
 import './sectionTwo.css'
 const SecTwo = () => {
@@ -50,6 +51,11 @@ const SecTwo = () => {
 
                 <div className='image-container'>
                     <img src={images11} alt="" />
+                </div>
+
+
+                <div className='image-container'>
+                    <img src={images12} alt="" />
                 </div>
 
             </section>
